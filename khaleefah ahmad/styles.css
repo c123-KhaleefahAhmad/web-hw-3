@@ -1,0 +1,54 @@
+html {
+  height: 90vh;
+}
+
+body {
+  background-image: url("https://pixelstrobist.com/wp-content/uploads/2017/11/autumn_food_photography_0.jpg");
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: "Epilogue", sans-serif;
+  color: rgb(230, 243, 255);
+}
+.title h1 {
+  text-transform: capitalize;
+}
+.size {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.imgs {
+  border-radius: 10%;
+  width: 45%;
+  height: 19%;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.text-size {
+  width: 100%;
+  color: beige;
+}
+
+.imgs:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(175, 175, 175, 0.507);
+  background-color: black;
+}
